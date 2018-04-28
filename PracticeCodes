@@ -1,0 +1,141 @@
+/* lecture 1 and 2 */
+
+public class Application {
+
+	public static void main(String[] args) {
+		int myNumber = 99;
+		float myfloat = 127.3f;
+		double myDouble = 99883;
+		
+		short myShort =  454;
+		long myLong = 5463;
+		
+		char myChar = 'M';
+		boolean myBoolean = true;
+		
+		byte myByte = 127;
+		
+		System.out.println("myNumber is: "+ myNumber);
+		System.out.println("myfloat is: "+ myfloat);
+		System.out.println("mydouble is: "+ myDouble);
+		System.out.println("myShort is: "+ myShort);
+		System.out.println("myLong is: "+ myLong);
+		System.out.println("myChar is: "+ myChar);
+		System.out.println("myBoolean is: "+ myBoolean);
+		System.out.println("myByte is: "+ myByte);
+	}
+
+}
+
+/* lecture 3 */
+
+public class Application {
+	public static void main(String[] args) {
+		int myInt = 9;
+		
+		String text = "Hello!";
+		
+		String blank = " ";
+		
+		String name = "Maruf";
+		
+		System.out.println("My text is: " + text);
+		System.out.println("My blank is: " + blank);
+		System.out.println("My name is: "+ name);
+		System.out.println("My integer is: " + myInt);
+		
+		System.out.println("Hello" + " " + "Maruf"); 
+}
+}
+
+/* lecture 4 */
+
+public class Application {
+	public static void main(String[] args) {
+		
+		
+		int value = 0;
+		
+		while (value < 10)
+		{
+			System.out.println("Hello! " + value);
+			value = value + 1;
+		}
+		
+		/*
+		boolean loop = true;
+		boolean loop1 = 4 > 7;
+		boolean loop2 = 3 < 5;
+		System.out.println(loop);
+		System.out.println(loop1);
+		System.out.println(loop2); 
+		*/
+		/*
+		int value = 10;
+		boolean loop = value < 20;
+		System.out.println(loop);
+		*/
+	}
+}
+
+
+/* Lecture 5 */
+
+
+public class Application {
+	public static void main(String[] args) {
+		/*for ( int i = 0; i < 5; i++) {
+			System.out.println("Hello!");
+	}*/
+		
+		/*for (int i = 0; i < 5; i++) {
+			System.out.println("The value of i is: " + i);
+		}*/
+		
+		for(int i = 0; i < 5; i++) {
+			System.out.printf("The value of i is: %d\n", i);
+		}
+}
+}
+
+
+/* Lecture 6 */
+
+
+public class Appliocation {
+	public static void main(String[] args) {
+		/*if ( 5 == 5) {
+			System.out.println("This is True");
+			 if ( 5 !=4) {
+				System.out.println("This is false");
+			}
+				
+		}
+		 	*/
+		/*
+		int myInt = 30;
+		if( myInt > 40) {
+			System.out.println("This is true!");
+		}
+		else if (myInt <5){
+			System.out.println("This is false");
+		}
+		else {
+			System.out.println("None of this above");
+		}
+		*/
+		
+		int loop = 0;
+		while (loop < 5) {
+			System.out.println("Looping :" + loop);
+			
+			if(loop == 5) {
+				break;
+			}
+			loop++;
+		System.out.println("Running");
+
+		}
+	}
+}
+
